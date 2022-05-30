@@ -117,6 +117,11 @@ const taskIncomplete = function() {
     incompleteTaskHolder.appendChild(listItem);
     bindTaskEvents(listItem,taskCompleted);
 }
+
+const ajaxRequest = function(){
+    console.log("AJAX Request");
+}
+
 //The glue to hold it all together.
 //Set the click handler to the addTask function.
 addButton.onclick = addTask;
